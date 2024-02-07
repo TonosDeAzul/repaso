@@ -5,7 +5,18 @@
   --sp_15: 15px;
   --sp_10: 10px;
   --sp_5: 5px;
+  --ct_1: #1d1d1d;
+  --ct_2: #fff;
 }
+
+
+.ct_1{
+  color: var(--ct_1);
+}
+.ct_2{
+  color: var(--ct_2);
+}
+
 
 .mt_30 {
   margin-top: var(--sp_30);
