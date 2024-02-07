@@ -11,6 +11,7 @@
   font-size: 48px;
   font-weight: 300;
   display: inline-block;
+  line-height: 1;
 }
 .landing__paragraph {
   font-size: 14px;
@@ -74,9 +75,27 @@
 }
 .subSection {
   text-align: center;
-  background-color: #e0e3ff;
+  background-color: #eef0ff;
   border-radius: 8px;
   max-width: 350px;
   padding: var(--sp_30);
   padding-bottom: 45px;
+}
+.section4 {
+  min-height: 45vh;
+}
+.comment {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.2);
+  padding: var(--sp_20);
+  border-radius: 8px;
+  background-color: #eef0ff;
+  max-width: 700px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.commet_image {
+  height: 100%;
 }
