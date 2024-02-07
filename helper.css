@@ -1,0 +1,65 @@
+:root {
+  --sp_30: 30px;
+  --sp_25: 25px;
+  --sp_20: 20px;
+  --sp_15: 15px;
+  --sp_10: 10px;
+  --sp_5: 5px;
+}
+
+.mt_30 {
+  margin-top: var(--sp_30);
+}
+.mt_25 {
+  margin-top: var(--sp_25);
+}
+.mt_20 {
+  margin-top: var(--sp_20);
+}
+.mt_15 {
+  margin-top: var(--sp_15);
+}
+.mt_10 {
+  margin-top: var(--sp_10);
+}
+.mt_5 {
+  margin-top: var(--sp_5);
+}
+
+.ml_30 {
+  margin-left: var(--sp_30);
+}
+.ml_25 {
+  margin-left: var(--sp_25);
+}
+.ml_20 {
+  margin-left: var(--sp_20);
+}
+.ml_15 {
+  margin-left: var(--sp_15);
+}
+.ml_10 {
+  margin-left: var(--sp_10);
+}
+.ml_5 {
+  margin-left: var(--sp_5);
+}
+
+.mr_30 {
+  margin-right: var(--sp_30);
+}
+.mr_25 {
+  margin-right: var(--sp_25);
+}
+.mr_20 {
+  margin-right: var(--sp_20);
+}
+.mr_15 {
+  margin-right: var(--sp_15);
+}
+.mr_10 {
+  margin-right: var(--sp_10);
+}
+.mr_5 {
+  margin-right: var(--sp_5);
+}
