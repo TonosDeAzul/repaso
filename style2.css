@@ -7,6 +7,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  background-color: #eef0ff;
+}
+
 .landing__title {
   font-size: 48px;
   font-weight: 300;
@@ -34,7 +38,7 @@
   font-size: 14px;
 }
 .landing__link-mod {
-  background-color: #fff;
+  background-color: #eef0ff;
   outline: 1px solid #7564f0;
   color: #1d1d1d;
 }
@@ -82,7 +86,7 @@
 }
 .subSection {
   text-align: center;
-  background-color: #eef0ff;
+  background-color: #e0e3ff;
   border-radius: 8px;
   max-width: 350px;
   padding: var(--sp_30);
@@ -163,4 +167,11 @@
 }
 .landing__link-mod2 {
   width: 100%;
+}
+.section7 {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
