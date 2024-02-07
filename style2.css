@@ -25,6 +25,7 @@
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
+  font-size: 14px;
 }
 .landing__link-mod {
   background-color: #fff;
@@ -98,4 +99,22 @@
 }
 .commet_image {
   height: 100%;
+}
+.section5 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.section__article {
+  display: flex;
+  flex-direction: column;
+}
+.expo__image {
+  box-shadow: 0px 0px 10px rgba(29, 29, 29, 0.4);
+  height: 700px;
+}
+.links {
+  display: inline-block;
 }
