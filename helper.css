@@ -7,6 +7,25 @@
   --sp_5: 5px;
   --ct_1: #1d1d1d;
   --ct_2: #fff;
+  --ft_1: 48px;
+  --ft_2: 28px;
+  --fp_1: 16px;
+  --fp_2: 14px;
+  --fw_1: 300;
+  --fw_2: 400;
+}
+
+
+.fd_col{
+  display: flex;
+  flex-direction: column;
+}
+
+.ta_center{
+  text-align: center;
+}
+.ta_left{
+  text-align: left;
 }
 
 

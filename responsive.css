@@ -1,25 +1,6 @@
 @import url(style.css);
 @import url(helper.css);
 
-@media screen and (max-width: 1400px) {
-
-  /* SECCIÓN 1 */
-  .section__image{
-    width: 800px;
-  }
-  .section__image img{
-    width: 100%;
-  }
-
-  /* SECCIÓN 2 */
-
-  /* SECCIÓN 3 */
-
-  /* SECCIÓN 4 */
-  
-
-}
-
 /* @media screen and (max-width: 768px) {
   .header__right {
     display: none;
