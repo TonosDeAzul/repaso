@@ -8,34 +8,32 @@
   --ct_1: #1d1d1d;
   --ct_2: #fff;
   --ft_1: 48px;
-  --ft_2: 28px;
+  --ft_2: 40px;
+  --ft_3: 28px;
   --fp_1: 16px;
   --fp_2: 14px;
   --fw_1: 300;
   --fw_2: 400;
 }
 
-
-.fd_col{
+.fd_col {
   display: flex;
   flex-direction: column;
 }
 
-.ta_center{
+.ta_center {
   text-align: center;
 }
-.ta_left{
+.ta_left {
   text-align: left;
 }
 
-
-.ct_1{
+.ct_1 {
   color: var(--ct_1);
 }
-.ct_2{
+.ct_2 {
   color: var(--ct_2);
 }
-
 
 .mt_30 {
   margin-top: var(--sp_30);
