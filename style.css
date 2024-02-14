@@ -150,7 +150,7 @@ body {
 
 /* SECCIÓN 3 */
 .card {
-  width: 340px;
+  max-width: 340px;
   background-color: #e0e3ff;
   border-radius: 8px;
   padding: var(--sp_30);
@@ -230,6 +230,6 @@ body {
 .footer__list {
   list-style: none;
 }
-hr {
+.hr {
   border-color: #7564f0;
 }

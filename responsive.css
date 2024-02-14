@@ -2,9 +2,15 @@
 @import url(helper.css);
 
 @media screen and (max-width: 425px) {
+  .card__container .card{
+    height: auto;
+  }
   .header__container {
     padding-left: var(--sp_20);
     padding-right: var(--sp_20);
+  }
+  .header__title{
+    display: none;
   }
   .header__right .link.link-mod {
     display: none;
@@ -30,19 +36,27 @@
   .card__container {
     flex-direction: column;
   }
-  .section.fd_col {
-    align-items: center;
+  .card{
+    width: 100%;
   }
   .section .section__article {
     margin-left: 0px;
+    text-align: center;
+  }
+  .landing__paragraph-mod{
+    line-height: 1.4;
+    text-align: left;
   }
   .section__comment-image {
     display: none;
   }
   .section__comment {
     width: 100%;
-    height: 150px;
+    height: auto;
     overflow: hidden;
+  }
+  .section__comment div .landing__paragraph{
+    display: none;
   }
   .landing__title {
     font-size: var(--ft_2);
@@ -50,8 +64,26 @@
   .container .section .landing__paragraph {
     display: none;
   }
-  .container .section .card__container .landing__paragraph,
-  .container .section .section__comment .landing__paragraph {
+  .container .section .card__container .landing__paragraph {
     display: inline-block;
+  }
+  .container .section{
+    text-align: center;
+  }
+  .footer__art{
+    flex-direction: column;
+  }
+  .footer__top-iconsContainer{
+    margin-bottom: var(--sp_30);
+  }
+  .footer__top-linksContainer{
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer__art:last-child{
+    display: none;
+  }
+  .hr{
+    display: none;
   }
 }
