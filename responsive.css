@@ -1,17 +1,7 @@
 @import url(style.css);
 @import url(helper.css);
 
-@media screen and (max-width: 425px) {
-  .card__container .card{
-    height: auto;
-  }
-  .header__container {
-    padding-left: var(--sp_20);
-    padding-right: var(--sp_20);
-  }
-  .header__title{
-    display: none;
-  }
+@media screen and (max-width: 870px) {
   .header__right .link.link-mod {
     display: none;
   }
@@ -23,39 +13,68 @@
     display: none;
   }
   .section {
-    padding: 100px 20px 100px 20px;
-    flex-direction: column;
+    justify-content: center;
   }
-  .section .card:nth-child(1),
-  .section .card:nth-child(2) {
-    margin-bottom: var(--sp_20);
+  .container .section {
+    text-align: center;
+  }
+  .section__comment {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+  }
+  .expo__image{
+    height: 400px;
+  }
+  .section .section__article {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section__comment-image {
+    display: none;
   }
   .expo__image {
     display: none;
   }
+  .section .section__article {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card__container .card {
+    height: auto;
+  }
+  .header__title {
+    display: none;
+  }
+  .section {
+    flex-direction: column;
+  }
+  /* .section .card:nth-child(1),
+  .section .card:nth-child(2) {
+    margin-bottom: var(--sp_20);
+  } */
   .card__container {
     flex-direction: column;
   }
-  .card{
+  .card {
     width: 100%;
   }
   .section .section__article {
     margin-left: 0px;
     text-align: center;
   }
-  .landing__paragraph-mod{
+  .landing__paragraph-mod {
     line-height: 1.4;
     text-align: left;
   }
-  .section__comment-image {
-    display: none;
-  }
   .section__comment {
     width: 100%;
-    height: auto;
-    overflow: hidden;
   }
-  .section__comment div .landing__paragraph{
+  .section__comment div .landing__paragraph {
     display: none;
   }
   .landing__title {
@@ -67,23 +86,20 @@
   .container .section .card__container .landing__paragraph {
     display: inline-block;
   }
-  .container .section{
-    text-align: center;
-  }
-  .footer__art{
+  .footer__art {
     flex-direction: column;
   }
-  .footer__top-iconsContainer{
+  .footer__top-iconsContainer {
     margin-bottom: var(--sp_30);
   }
-  .footer__top-linksContainer{
+  .footer__top-linksContainer {
     text-align: center;
     flex-direction: column;
   }
-  .footer__art:last-child{
+  .footer__art:last-child {
     display: none;
   }
-  .hr{
+  .hr {
     display: none;
   }
 }
